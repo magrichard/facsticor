@@ -23,6 +23,7 @@ biocLite(c("flowCore"))
 
 Then install facsticor:
 
+
 ```R
 install.packages("devtools")
 devtools::install_github("magrichard/facsticor")
