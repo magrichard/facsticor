@@ -14,7 +14,12 @@ All flow cytometry raw data files can be downloaded from http://flowrepository.o
 
 ## Installation
 
-To get the current development version from github:
+To get the current development version from github, you need first to install the package flowCore from bioconductor:
+
+```R
+source("http://bioconductor.org/biocLite.R")
+biocLite(c("flowCore"))
+```
 
 ```R
 install.packages("devtools")
