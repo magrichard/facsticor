@@ -1,25 +1,26 @@
 Package: facsticor
 Type: Package
 Title: Treatment and analysis of FACS data during time course experiments
-Version: 0.0.0.9000
 Authors@R: c(
-    person("Magali", "Richard", ,"magali.richard@ens-lyon.fr", c("aut", "cre")),
+    person("Magali", "Richard", ,"magali.richard@univ-grenoble-alpes.fr", c("aut", "cre")),
     person("Florent", "Chuffart", ,"florent.chuffart@gmail.com", "aut"),
     person("Gael", "Yvert", ,"gael.yvert@ens-lyon.fr", "aut"),
     person("CNRS", , , , "cph")
     )
-Maintainer: Magali Richard <magali.richard@ens-lyon.fr>
-Description: More about what it does (maybe more than one line)
+Maintainer: Magali Richard <magali.richard@univ-grenoble-alpes.fr>
+Description: This package treats FACS data, corrects for plate effect and estimates the fraction of GFP ON cells.
 License: CeCILL
 LazyData: TRUE
+Depends: R(>= 2.10.0)
 Imports:
+    memoise,
     flowCore,
-    cachecache,
-    gylab,
     MASS,
     mgcv,
-    mixtools
-RoxygenNote: 5.0.1
+    mclust,
+    mixtools,
+	SpatialTools
+RoxygenNote: 6.0.1
 Suggests: knitr,
     rmarkdown,
     testthat
