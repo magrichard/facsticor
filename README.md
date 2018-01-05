@@ -2,7 +2,7 @@
 
 This package has been used to analyse FACS data of the following paper:
 
- Assigning function to natural allelic variation via dynamic modeling of gene network induction. 
+Assigning function to natural allelic variation via dynamic modeling of gene network induction. 
 *Molecular Systems Biology* 
 
 Article DOI: 10.15252/msb.20177803
